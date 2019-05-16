@@ -15,3 +15,13 @@
   font-weight: bold;
   color: #e91e69;
 }
+
+@media screen and (max-device-width: 769px) {
+  .PokeDex-winner {
+    font-size: 1em;
+  }
+
+  .PokeDex-loser {
+    font-size: 1em;
+  }
+}
