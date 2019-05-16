@@ -39,3 +39,25 @@
 .PokeCard-data {
   font-size: .75em;
 }
+
+@media screen and (max-device-width: 769px) {
+  .PokeCard-h1 {
+    margin-bottom: .5rem;
+    font-size: 1em;
+  }
+
+  .PokeCard-figure {
+    display: inline-flex;
+    width: 75%;
+    height: 35%;
+    margin-bottom: .5rem;
+  }
+
+  .PokeCard-img {
+    width: 55%;
+  }
+
+  .PokeCard-data {
+    font-size: .55em;
+  }
+}
